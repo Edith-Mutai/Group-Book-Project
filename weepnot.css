@@ -2,6 +2,9 @@ body{
     font-family: gotham;
     color: rgb(49, 2, 49);
 }
+p{
+    font-size: 18px;
+}
 @font-face {
     font-family: gothambold;
     src: url(fonts/GothamPro-Bold.ttf);
@@ -98,6 +101,9 @@ a{
 }
 .theme_three{
     display: flex;
+}
+#maumau{
+    width: 60%;
 }
 .author {
     font-family: gothambold;
