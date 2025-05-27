@@ -122,11 +122,12 @@ a{
     font-size: 20px;
     margin-bottom: 15px;
 }
+
   .home-page {
     background-color: lightgrey;
     margin: 2rem auto;
-    max-width: 180vh;
-    max-height: 160vh;
+    max-width: 170vh;
+    max-height: 170vh;
     border-radius: 15px;
     overflow: hidden;
     box-shadow: 0 5px 15px rgba(0,0,0,0.1);
@@ -195,16 +196,13 @@ a{
     border-radius: 25px;
     cursor: pointer;
   }
-  
   .books {
     display: flex;
     gap:7%;
     margin-left: 20%;
-    margin-top: 5%;
-    padding-bottom: 50px;
-    
+  
   }
- 
+  
   .book {
     padding-top:-2px;
     width: 140px;
@@ -248,16 +246,19 @@ height: 40vh;
 }
 
 .title {
-    color: #555;
-    background: #F9F9F9;
-     text-align: center;
-    align-items: center;
-    margin-left: 50px;
-    margin-top: 20px;
-    border-radius: 5px;
-    padding: 20px;
-    width: 200px;
+    
+  color: #555;
+  background: #F9F9F9;
+   text-align: center;
+  align-items: center;
+  margin-left: 50px;
+  margin-top: 20px;
+  border-radius: 5px;
+  padding: 20px;
+  width: 200px;
 }
+
+
 @keyframes scroll {
     0% {
         transform: translateX(0);
